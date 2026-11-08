@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>сайт</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <main>
+    <h1 class="fade-in">ИСТОРИЯ HTML: ОТ ЗАРОЖДЕНИЯ ДО СОВРЕМННОСТИ</h1>
+    <h2 class="fade-in">Кто придумал HTML?</h2>
+    <p class="fade-in">HTML был создан сэром Тимом Бернерсом-Ли в 1989-1991 годах. В то время он работал в ЦЕРНе и столкнулся с проблемой обмена документами между учеными.</p>
+    <h3 class="fade-in">Тим Бернерс-Ли</h3>
+    <img scr="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/LS3_4919_%28cropped%29.jpg/250px-LS3_4919_%28cropped%29.jpg?utm_source=ru.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" alt="Тим Бернерс-Ли">
+    <p class="fade-in">Фото: Тим Бернерс-Ли в CERN (примерно 1991 год).</p>
+    <h2 class="fade-in">Первая в мире веб-страница</h2>
+    <p class="fade-in">Первый в мире веб-сайт был опубликован 6 августа 1991 года. Он был посвящен проекту World Wide Web и объяснял, как создавать веб-страницы. Вы можете посетить его реконструкцию по ссылке:
+        <a href=" https://info.cern.ch">Первый в мире веб-сайт</a>.</p>
+        <h2 class="fade-in">Видение Тима Бернерса-Ли</h2>
+        <P class="fade-in">Описывая свой проект, Тим Бернерс-Ли говорил:
+            <ul>The World Wide Web was originally conceived and developed to meet the demand for automatic information-sharing between scientists in universities and institutes all around the world.</ul>
+        </P>
+        <p class="fade-in">Это высказывание взято из документа "Information Management: A Proposal", написанного в CERN в марте 1989 года. Другими словами, он просто хотел помочь ученым обмениваться данными, а создал то, без чего мы не представляем жизнь сегодня.</p>
+        <h2 class="fade-in">Ключевые вехи развития</h2>
+        <button id="myButton">Скрыть список</button>
+        <p class="fade-in">Вот основные этапы эволюции HTML:</p>
+        <div id="myList">
+        <ol class="fade-in" >
+            <li class="fade-in"><strong>Версия 1.0 (1991)</strong> - Скромное начало. Содержал около 20 тегов.</li>
+            <li class="fade-in"><strong>Версия 4.01 (1999)</strong> - Стандартизация основных возможностей</li>
+            <li class="fade-in"><strong>Версия 4.01 (1999)</strong> - Очень популярная версия, добавившая поддержку стилей и скриптов.</li>
+            <li class="fade-in"><strong>XHTML (2000)</strong> - Более строгая версия, написанная по правилам XML. Многие разработчики ее обожали невзлюбили за жесткость.</li>
+            <li class="fade-in"><strong>HTML5 (2014)</strong> - Настоящая революция. Добавил теги для видео, аудио, графики (canvas) и новых структурных элементов.</li>
+        </ol>
+        </div>
+        <h2 class="fade-in">Почему важно знать семантику?</h2>
+        <p class="fade-in">Использование правильных тегов (семантическая верстка) - это признак хорошего тона. Это помогает:</p>
+        <p class="fade-in">
+            <ul class="fade-in">
+                <li class="fade-in">поисковым системам (SEO) лучше понимать структуру страницы,</li>
+                <li class="fade-in">программам экранного доступа (скринридерам) зачитывать контент для незрячих людей</li>
+                <li class="fade-in">другим разработчикам читать ваш код.</li>
+            </ul>
+        </p >
+        <h3 class="fade-in">Важно! Не путайте теги &lt;b&gt; и &lt;strong&gt;, &lt;i&gt; и &lt;em&gt;.</h3>
+        <p class="fade-in">&lt;b&gt; и &lt;i&gt; - это просто визуальное выделение (жирный и курсив).</p>
+        <p class="fade-in">&lt;strong&gt; и &lt;em&gt; - это логическое выделение (важность и акцент), что гораздо важнее для доступности.</p>
+        <h2 class="fade-in">Редакторские правки и устаревшие теги</h2>
+        <p class="fade-in">В HTML есть несколько способов показать, что информация устарела или была изменена</p>
+        <h3 class="fade-in">Устаревшие теги оформления</h3>
+        <p class="fade-in">Устаревшие теги оформления</p>
+        <h3 class="fade-in">Разница между &lt;s&gt; и &lt;del&gt;</h3>
+        <p class="fade-in">Тег &lt;s&gt; показывает, что информация больше не актуальна, но остается для контекста. Например, в объявлении о распродаже:</p>
+        <p class="fade-in">Акция действует до 31 декабря! Старая цена: 5000 руб. Новая цена: 3000 руб.</p>
+        <p class="fade-in">Тег &lt;del&gt; используется для демонстрации удалений в редактируемых текстах, часто вместе с &lt;ins&gt; (вставка). Например, в анонсе мероприятия:</p>
+        <p class="fade-in">Расписание: <s>Лекция в понедельник</s> Лекция перенесена на среду.</p>
+        <h3 class="fade-in">Тег переноса строки</h3>
+        <p class="fade-in">Для разделения стихотворений или адресов удобно использовать тег &lt;br&gt;.</p>
+        <p class="fade-in">Пример:</p>
+        <p class="fade-in">г. Москва,</p>
+        <p class="fade-in">ул. Программистов, д. 5</p>
+        </main>
+        <script src="script.gs"></script>
+    </body>
+</html>
